@@ -3,6 +3,7 @@ title: Visual Studio Code 挺好用的
 date: 2016-11-19 14:15:30
 tags: []
 categories: [Tech Notes]
+authors: [alexchen]
 
 ---
 

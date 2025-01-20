@@ -3,6 +3,7 @@ title: Ubuntu 对 Retina Display 的支持
 date: 2016-04-24 13:54:00
 tags: []
 categories: Tech Notes
+authors: [alexchen]
 
 ---
 

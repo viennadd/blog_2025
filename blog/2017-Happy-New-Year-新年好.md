@@ -1,6 +1,7 @@
 ---
 title: 2017 Happy New Year! 新年好
 date: 2017-01-01 00:14:42
+authors: [alexchen]
 tags: []
 categories: [生活]
 ---

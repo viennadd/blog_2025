@@ -3,6 +3,7 @@ title: 成功把门禁的 NFC UID 复制到手机
 date: 2017-03-01 00:35:10
 tags: [NFC, Android]
 categories: [Tech Notes]
+authors: [alexchen]
 
 ---
 

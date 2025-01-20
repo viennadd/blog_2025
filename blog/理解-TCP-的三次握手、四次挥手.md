@@ -3,6 +3,7 @@ title: 理解 TCP 的三次握手、四次挥手
 date: 2016-06-27 11:11:03
 tags: []
 categories: [Tech Notes]
+authors: [alexchen]
 
 ---
 ### 三次握手是这样

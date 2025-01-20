@@ -2,6 +2,7 @@
 title: Movie "Kill Boksoon"
 date: 2024-01-28
 tags: [电影, 韩国]
+authors: [alexchen]
 draft: false
 ---
 

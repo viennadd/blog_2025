@@ -1,6 +1,7 @@
 --- 
 title: Leetcode - Median of Two Sorted Arrays
 date: 2016-04-07 23:19:05
+authors: [alexchen]
 tags: [leetcode, algorithm]
 categories: [刷题]
 

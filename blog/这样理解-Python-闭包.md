@@ -3,6 +3,7 @@ title: 这样理解 Python 闭包
 date: 2016-08-23 21:02:36
 tags: [Python, closure]
 categories: [Tech Notes]
+authors: [alexchen]
 
 ---
 

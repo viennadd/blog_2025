@@ -3,6 +3,7 @@ title: shellman 一个 Linux 堆溢出利用例题的分析
 date: 2016-07-21 16:43:00
 tags: []
 categories: [Tech Notes]
+authors: [alexchen]
 
 ---
 

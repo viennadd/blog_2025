@@ -1,6 +1,6 @@
 ---
 slug: welcome
-title: Welcome
+title: Syntax demo
 authors: [slorber, yangshun]
 tags: [facebook, hello, docusaurus]
 draft: true

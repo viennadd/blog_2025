@@ -3,6 +3,7 @@ title: 玩 redtiger SQL 注入 10 关
 date: 2018-04-10 22:31:42
 tags: [SQL Injection]
 categories: [Tech Notes]
+authors: [alexchen]
 
 ---
 
