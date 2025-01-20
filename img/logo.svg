@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Bright gradient background -->
+  <defs>
+    <radialGradient id="bg-gradient-1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#ff3333"/>
+      <stop offset="100%" style="stop-color:#ff0000"/>
+    </radialGradient>
+    
+    <!-- Fractal pattern mask -->
+    <mask id="fractal-mask">
+      <path d="M40,100 
+               C40,60 60,40 100,40  
+               L300,40
+               C340,40 360,60 360,100
+               Q370,200 360,300
+               C360,340 340,360 300,360
+               L100,360
+               C60,360 40,340 40,300
+               Q30,200 40,100" 
+            fill="white"/>
+    </mask>
+  </defs>
+
+  <!-- Base rounded rectangle with curved sides -->
+  <path d="M40,100 
+           C40,60 60,40 100,40  
+           L300,40
+           C340,40 360,60 360,100
+           Q370,200 360,300
+           C360,340 340,360 300,360
+           L100,360
+           C60,360 40,340 40,300
+           Q30,200 40,100" 
+        fill="url(#bg-gradient-1)"/>
+
+  <!-- Complex spiral structure -->
+  <g mask="url(#fractal-mask)">
+    <!-- Main spiral arms -->
+    <path d="M200,200 
+             C350,50 400,200 200,350 
+             C0,500 0,200 200,50 
+             C400,0 400,400 200,200" 
+          fill="none" stroke="#ffffff" stroke-width="3" opacity="0.6">
+      <animate attributeName="d" dur="20s" repeatCount="indefinite"
+               values="M200,200 C350,50 400,200 200,350 C0,500 0,200 200,50 C400,0 400,400 200,200;
+                       M200,200 C300,100 350,300 150,300 C0,300 50,100 250,100 C450,100 350,350 200,200;
+                       M200,200 C350,50 400,200 200,350 C0,500 0,200 200,50 C400,0 400,400 200,200"/>
+    </path>
+
+    <!-- Secondary spiral details -->
+    <g opacity="0.7">
+      <path d="M200,200 Q350,50 300,350 T100,100" 
+            fill="none" stroke="#ffcccc" stroke-width="2"/>
+      <path d="M200,200 Q50,350 350,300 T300,50" 
+            fill="none" stroke="#ffe6e6" stroke-width="2"/>
+    </g>
+
+    <!-- Light patterns -->
+    <g>
+      <path d="M200,200 l50,-50 l-20,0 l40,-40 l-80,20 l60,-60 l-60,40 z" 
+            fill="#ffffff" opacity="0.3" transform="rotate(45 200 200)">
+        <animate attributeName="opacity" values="0.3;0.5;0.3" dur="3s" repeatCount="indefinite"/>
+      </path>
+      
+      <g opacity="0.4">
+        <path d="M100,100 l30,-30 l-10,0 l20,-20 l-40,10 l30,-30 l-30,20 z" fill="#ffffff"/>
+        <path d="M300,300 l30,-30 l-10,0 l20,-20 l-40,10 l30,-30 l-30,20 z" fill="#ffffff"/>
+        <path d="M300,100 l30,-30 l-10,0 l20,-20 l-40,10 l30,-30 l-30,20 z" fill="#ffffff"/>
+        <path d="M100,300 l30,-30 l-10,0 l20,-20 l-40,10 l30,-30 l-30,20 z" fill="#ffffff"/>
+      </g>
+    </g>
+
+    <!-- Flow patterns -->
+    <g opacity="0.6">
+      <path d="M50,200 C150,100 250,300 350,200 S400,100 450,200" 
+            fill="none" stroke="#ffffff" stroke-width="1" 
+            transform="rotate(0 200 200)"/>
+      <path d="M50,200 C150,100 250,300 350,200 S400,100 450,200" 
+            fill="none" stroke="#ffffff" stroke-width="1" 
+            transform="rotate(72 200 200)"/>
+      <path d="M50,200 C150,100 250,300 350,200 S400,100 450,200" 
+            fill="none" stroke="#ffffff" stroke-width="1" 
+            transform="rotate(144 200 200)"/>
+      <path d="M50,200 C150,100 250,300 350,200 S400,100 450,200" 
+            fill="none" stroke="#ffffff" stroke-width="1" 
+            transform="rotate(216 200 200)"/>
+      <path d="M50,200 C150,100 250,300 350,200 S400,100 450,200" 
+            fill="none" stroke="#ffffff" stroke-width="1" 
+            transform="rotate(288 200 200)"/>
+    </g>
+
+    <!-- Glowing particles -->
+    <g opacity="0.8">
+      <circle cx="150" cy="100" r="2" fill="#ffffff"/>
+      <circle cx="250" cy="300" r="1.6" fill="#ffffff"/>
+      <circle cx="300" cy="150" r="2.4" fill="#ffffff"/>
+      <circle cx="100" cy="250" r="1.2" fill="#ffffff"/>
+      <circle cx="200" cy="350" r="2" fill="#ffffff"/>
+      <circle cx="350" cy="200" r="1.6" fill="#ffffff"/>
+      <circle cx="120" cy="320" r="2.4" fill="#ffffff"/>
+      <circle cx="280" cy="80" r="1.2" fill="#ffffff"/>
+    </g>
+  </g>
+</svg>

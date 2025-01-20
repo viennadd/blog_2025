@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdd_notes=self.webpackChunkdd_notes||[]).push([[1498],{1140:t=>{t.exports=JSON.parse('{"tag":{"label":"NFC","permalink":"/blog/tags/nfc","allTagsPath":"/blog/tags","count":1,"unlisted":false},"listMetadata":{"permalink":"/blog/tags/nfc","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
